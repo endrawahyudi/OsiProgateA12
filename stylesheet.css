@@ -1,0 +1,70 @@
+@media (max-width : 1000px){
+  header {width :100%;}
+  body { width : 100%;}
+  footer { width :100%;}
+}
+body {
+    font-family: "times new roman";
+    
+  }
+
+  li {
+    list-style: none;
+    float: left;
+    /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+.header{ 
+    background-color: greenyellow;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    
+    top: 0;
+    z-index: 20;
+}
+
+.header-img {
+    width: 20%;
+    height: 40px;
+    background: url('logo1.png');
+    background-size: 20px;
+  }
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  .main {
+    background-color: #f0faf6;
+    height: 50px;
+  }
+ 
+.header-list {
+	float: right;
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.judul-konten {
+    text-align: center;
+}
+
+.footer {
+    background-color: greenyellow;
+    height: 95px;
+  }
